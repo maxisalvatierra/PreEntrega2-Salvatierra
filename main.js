@@ -40,20 +40,3 @@ function mostrarVinos() {
     }
 }
 
-
-while (comprobacion != "fin" || comprobacion != "FIN" || comprobacion != "Fin")
-
-alert(arrayProductos);
-
-for(var producto of arrayProductos){
-    document.write("<h3> El producto ingresado es: " + producto.nombre + "</h3>")
-    document.write("<h3> El detalle del producto ingresado es: " + producto.detalle + "</h3>")
-    document.write("<h3> El producto ingresado es: " + producto.cantidad + "</h3>")
-    document.write("<h3> El producto con IV es: " + producto.sumarIva + "</h3>")
-}
-
-alert(producto.nombre);
-alert(producto.detalle);
-alert(producto.cantidad);
-alert(producto.sumarIva());
-
