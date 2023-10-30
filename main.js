@@ -39,4 +39,3 @@ function mostrarVinos() {
         alert("Nombre: " + vinos[i].nombre + ", Año: " + vinos[i].año + ", Tipo: " + vinos[i].tipo);
     }
 }
-
